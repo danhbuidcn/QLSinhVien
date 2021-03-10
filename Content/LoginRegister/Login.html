@@ -1,0 +1,83 @@
+<DOCTYPE !html>
+    <html>
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link href="../bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="../jquery.js"></script>
+        <style>
+            body {
+                margin: 0 auto;
+                background-color: #EEEEEE;
+                height: 100vh;
+                font-family: "Roboto", Arial, sans-serif;
+                margin: 50px 0;
+                font-size: 12px;
+            }
+            
+            #wapper {
+                width: 360px;
+                margin: 0 auto;
+                background-color: white;
+                border-radius: 3px;
+                border-top: 3px solid #4285f4;
+                padding: 20px;
+                text-align: center;
+            }
+            
+            #head {
+                padding: 20px 0;
+                color: #5a5a5a;
+                font-weight: 600;
+                border-bottom: 1px solid grey;
+            }
+            
+            #head h6 {
+                padding-top: 20px;
+                font-weight: 600;
+            }
+            
+            #formLogin {
+                padding: 0 10px;
+                padding-top: 40px;
+            }
+            
+            h5 {
+                font-size: 13px;
+                font-weight: 600;
+            }
+            
+            input {
+                font-size: 14px !important;
+            }
+        </style>
+
+    </header>
+
+    <body>
+        <div id="wapper">
+            <div id="head">
+                <img src="../logo.png" width="100px">
+                <h6>Trường Đại học Công nghiệp Hà Nội</h6>
+                <h5>Sinh viên đăng nhập</h5>
+            </div>
+            <div id="formLogin">
+                <form action="actionLogin.php" method="post">
+                    <div class="form-group">
+                        <input class="form-control" name="username" type="text" required>
+                    </div>
+                    <div class="form-group" style="padding:20px 0;">
+                        <input class="form-control" name="password" type="password" required>
+                    </div>
+                    <div class="form-group">
+                        <input name="submitLogin" class="btn btn-primary form-control" style="font-size:14px; font-weight: 700;" type="submit" value="Đăng nhập">
+                    </div>
+                </form>
+                <p>Bạn quên mật khẩu? <a href="#">Quên mật khẩu</a></p>
+                <p>Hướng dẫn quên mật khẩu? <a href="#">Xem hướng dẫn</a></p>
+            </div>
+        </div>
+    </body>
+
+    </html>

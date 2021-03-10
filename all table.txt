@@ -1,0 +1,29 @@
+all table
+1. studentaccount(bảng tài khoản, chứa tất cả các tài khoản )
+    - mã sinh viên :int
+    - Mật khẩu: varchar
+    - Họ tên: varchar
+    - Email: varchar
+    - Điện thoại: int
+    - Địa chỉ: varchar
+    - Ảnh: 
+
+2. student_detail(Bảng thông tin chi tiết sinh viên )
+    - số tiền trong tài khoản
+3. class_main(bảng danh sách lớp học chính)
+4. faculty(bảng danh sách khoa)
+5. class_subjects(bảng danh sách lớp học theo môn học)
+6. subjects_faculty(bảng danh sách các môn học theo khoa)
+    - bao gồm số tín chỉ, số tiền tương ứng
+7. point_subjects(bảng danh sách điểm theo môn học)
+8. subjects_semester(bảng danh sách môn học theo kì)
+    - tên môn và thời gian bắt đầu học số buổi trong tuần
+9. point_cumulative(bảng điểm tích lũy)
+10. point_test(bảng điểm thi)
+
+
+//Tiến độ :
+1. thay đổi hthông tin cá nhân -> Account ->ok
+2. thay đổi mật khẩu -> ChangePass ->ok
+3. cập nhật thông tin sinh viên ->Information/Update.php
+4. cập nhật thông tin in bằng ->Information/License.php

@@ -1,0 +1,1 @@
+Error number : 2, error message : Undefined variable $b, error file :C:\xampp\htdocs\StudentApplication\Content\MasterPage\Information\Update.php, error line : 3
